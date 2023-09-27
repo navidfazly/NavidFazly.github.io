@@ -1,0 +1,18 @@
+/* Define the theme colors */
+:root {
+  --primary-color: #007bff;
+  --secondary-color: #6c757d;
+  --background-color: #f8f9fa;
+}
+
+/* Apply the theme to specific elements */
+body {
+  background-color: var(--background-color);
+  color: var(--secondary-color);
+}
+
+h1, h2, h3 {
+  color: var(--primary-color);
+}
+
+/* Add more CSS rules to customize your website's appearance */
